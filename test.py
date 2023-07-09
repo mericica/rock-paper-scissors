@@ -19,9 +19,9 @@ def computers_choice():
 
 
 
-def mensch_choice():
+def user_choice():
     print("Choose a sign: \n 1. rock \n 2. scissors \n 3. paper")
-    print("Meine choice ist:")
+    print("I choose:")
     rock = open("rock.txt").read()
     scissors = open("scissors.txt").read()
     paper = open("paper.txt").read()
